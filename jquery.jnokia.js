@@ -584,12 +584,13 @@
     } else if ( typeof method === 'object' || ! method ) {
       return methods.init.apply( this, arguments );
     } else {
-      return $.error( 'Method ' +  method + ' does not exist on jQuery.tooltip' );
+      return $.error( 'Method ' +  method + ' does not exist on jQuery.JNokia' );
     }
   };
   $.fn.JNokia.defaults = {
-    appId:'jGzF0E8Pw2plTbU1J7d1',
-	authenticationToken:'KuHTl0TqHwlzIEtDtTE7PQ',
+	
+    appId:'',
+	authenticationToken:'',
     log:true,
 	zoom:18,
 	center:[24.76610745182157,46.660324931144714],
